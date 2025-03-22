@@ -1,0 +1,23 @@
+# configs/pith.yaml
+
+# Dataset paths
+train: datasets/full_dataset/train/images
+val: datasets/full_dataset/val/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['pith']
+
+# Augmentation settings (as per the paper)
+hsv_h: 0.015      # Hue jitter
+hsv_s: 0.7        # Saturation jitter
+hsv_v: 0.4        # Value jitter
+degrees: 30.0     # Rotation
+translate: 0.1    # Translation
+scale: 0.5        # Scaling
+shear: 10.0       # Shearing
+flipud: 0.5       # Vertical flip
+fliplr: 0.5       # Horizontal flip
+
